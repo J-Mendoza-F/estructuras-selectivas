@@ -3,6 +3,8 @@ using namespace std;
 
 int main(){
 	double cant, pcam, monto, final;
+	// pcam es el precio por cada camisa
+	cout<<"TOTAL A PAGAR POR CAMISAS"<<endl;
 	cout<<"Introduzca la cantidad de camisas: ";
 	cin>>cant;
 	cout<<"Introduzca el precio de cada camisa: ";
