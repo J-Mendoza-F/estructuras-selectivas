@@ -1,3 +1,9 @@
+/*
+ASIGNATURA: Fundamentos de Programación
+DOCENTE: MSc. Ing. Wilson César Callisaya Choquecota
+ALUMNO: Jair Mark Mendoza Flores
+CÓDIGO: 2024-119004
+*/
 #include <iostream>
 using namespace std;
 
