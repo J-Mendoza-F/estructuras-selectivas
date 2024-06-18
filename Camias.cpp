@@ -5,6 +5,7 @@ int main(){
 	double cant, pcam, monto, final;
 	// pcam es el precio por cada camisa
 	// " final " es el precio total a pagar descontando el descuento
+	// " cant " se refiere a la cantidad de camisas que está llevando
 	cout<<"TOTAL A PAGAR POR CAMISAS"<<endl;
 	cout<<"Introduzca la cantidad de camisas: ";
 	cin>>cant;
