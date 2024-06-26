@@ -41,17 +41,22 @@ int main(){
 	// pcam es el precio por cada camisa
 	// " final " es el precio total a pagar descontando el descuento
 	// " cant " se refiere a la cantidad de camisas que está llevando
+	int op = 0;
 	cout<<"TOTAL A PAGAR POR CAMISAS"<<endl;
-	cout<<"Introduzca la cantidad de camisas: ";
-	cin>>cant;
-	// Función para validar la cantidad de camisas
-	cv=vc(cant);
-	cout<<"Introduzca el precio de cada camisa: ";
-	cin>>pcam;
-	// Función para validar el precio de las camisas
-	pv=vp(pcam);
-	monto=pv*cv;
-	final=proc(cv,monto);
-	cout<<"El total a pagar es: "<<final;
+	do {
+		cout<<"Introduzca la cantidad de camisas: ";
+		cin>>cant;
+		// Función para validar la cantidad de camisas
+		cv=vc(cant);
+		cout<<"Introduzca el precio de cada camisa: ";
+		cin>>pcam;
+		// Función para validar el precio de las camisas
+		pv=vp(pcam);
+		monto=pv*cv;
+		final=proc(cv,monto);
+		cout<<"El total a pagar es: "<<final << endl;
+		cout << "Desea calcular otro proceso? (1:si, 0:no): ", cin >> op;
+	} while (op == 1);
+	cout << "Gracias por utilizar el programa";
 	return 0;
 }
